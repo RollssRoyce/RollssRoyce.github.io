@@ -2,11 +2,9 @@ body {
 	background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2015/02/galaxy-wallpaper-11.jpg");
       background-size: cover;
       background-position: center;
-      color: Orange;
-      font-family: 2Tech font
 }
 h1	{
-	font-family: wingdings
+	font-family: times;
 	color: orange;
 	font-size: 126px;
 }
