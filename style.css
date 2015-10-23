@@ -1,9 +1,14 @@
 body {
 	background: black;
+	background: url("http://beingwelllifestyles.com/wp-content/uploads/2012/09/Fire-Flames-300x201.jpg");
+      background-size: cover;
+      background-position: center;
+      color: Orange;
+      font-family: 2Tech font
 }
 h1	{
-	font-family: helvetica;
-	color: white;
+	font-family: 2Tech font;
+	color: orange;
 }
 #container {
 	text-align: center;
