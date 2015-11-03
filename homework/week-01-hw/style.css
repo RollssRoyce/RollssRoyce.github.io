@@ -1,0 +1,20 @@
+body {
+  	font-size: 14px;
+  	color: magenta;
+    background: lightblue
+  }
+
+  #one {
+  color: white;
+}
+
+#two {
+  color: gray;
+}
+
+#three {
+  color: darkgray;
+
+
+{#four {
+  color: orange;}
