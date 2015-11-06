@@ -1,0 +1,42 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
+section {
+	background-color: #ffffff;
+	padding: 15px;
+
+}
+
+article {
+}
+
+p {
+font-size: 12px;
+}
+
+hr.dashed {
+border-top: 1px dashed #000000;
+}
+
+hr.solid {
+border-top: 3px solid #000000;
+}
+
+
+a {
+color: #ff3300;
+}
+
+h3 {
+	font-size: 20px;
+}
