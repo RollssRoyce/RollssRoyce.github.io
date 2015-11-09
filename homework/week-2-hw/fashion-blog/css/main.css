@@ -1,0 +1,24 @@
+body {
+	background-color: white;
+}
+
+
+
+#navbar ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#navbar 
+ ul li 
+ { display: inline; 
+ }
+
+
+
+
+hr.red {
+color: #DD0000;
+}
