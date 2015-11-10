@@ -2,9 +2,26 @@ body {
 	background-color: white;
 }
 
+#container {
+	width: 720px;
+	margin: 54px;
+}
+
+section {
+	color: #dddddd;
+	padding: 15px;
 
 
-#navbar ul
+hr.solid {
+border-top: 6px solid #000000;
+}
+
+
+
+
+
+
+#ul
 {
 margin: 0;
 padding: 0;
