@@ -1,38 +1,53 @@
 body {
 	background-color: white;
-}
-
-#container {
 	width: 720px;
 	margin: 54px;
 }
 
-section {
-	color: #dddddd;
-	padding: 15px;
+#navcontainer ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+color: #444444;
+}
+
+
+#article {
+color: #dddddd;
+padding: 15px;
+}
+
+a {
+color: #FF0000;
+text-align: left;
+}
+
+p {
+padding: 15px;
+font-size: 12px;
+font-family: Lato;
+text-align: left;
+color: #cccccc
+}
 
 
 hr.solid {
 border-top: 6px solid #000000;
 }
 
-
-
-
-
-
-#ul
-{
-margin: 0;
-padding: 0;
-list-style-type: none;
+h4 {
+	color: black;
+	font-family: Lato;
 }
 
-#navbar 
- ul li 
- { display: inline; 
- }
+h3 {
+	color: #cccccc;
+}
 
+hr.solid {
+border-top: 1.5px solid #000000;
+color: #DD0000;
+}
 
 
 
