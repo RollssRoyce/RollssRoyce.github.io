@@ -1,10 +1,10 @@
 body {
-  	font-size: 14px;
-  	color: magenta;
-    background: lightblue
-  }
+  font-size: 14px;
+  color: magenta;
+  background: lightblue;
+}
 
-  #one {
+#one {
   color: white;
 }
 
@@ -14,7 +14,8 @@ body {
 
 #three {
   color: darkgray;
+}
 
-
-{#four {
-  color: orange;}
+#four {
+  color: orange;
+}
