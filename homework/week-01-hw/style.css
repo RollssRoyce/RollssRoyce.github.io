@@ -4,17 +4,17 @@ body {
     background: lightblue
   }
 
-  #one {
+  #one { /* doesn't need to be indented */
   color: white;
 }
 
-#two {
+#two { /* nice rule structure */
   color: gray;
 }
 
 #three {
-  color: darkgray;
+  color: darkgray; 
+/*missing closing tag*/
 
-
-{#four {
-  color: orange;}
+{#four {/* extra curly brace at line beggining */
+  color: orange;} /* closing tags are usually placed below the last rule */

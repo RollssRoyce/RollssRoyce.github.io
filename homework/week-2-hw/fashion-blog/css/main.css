@@ -1,11 +1,11 @@
 body {
-	background-color: white;
+	background-color: white; /* nice rule indentation */
 	width: 720px;
 	margin: 54px;
 }
 
 #navcontainer ul {
-margin: 0;
+margin: 0; /* rules inside curly braces should be indented */
 padding: 0;
 list-style-type: none;
 color: #444444;
@@ -13,17 +13,17 @@ color: #444444;
 
 
 #article {
-color: #dddddd;
+color: #dddddd; /* rules inside curly braces should be indented */
 padding: 15px;
 }
 
 a {
-color: #FF0000;
+color: #FF0000; /* rules inside curly braces should be indented */
 text-align: left;
 }
 
 p {
-padding: 15px;
+padding: 15px; /* rules inside curly braces should be indented */
 font-size: 12px;
 font-family: Lato;
 text-align: left;
@@ -31,8 +31,8 @@ color: #cccccc
 }
 
 
-hr.solid {
-border-top: 6px solid #000000;
+hr.solid {/* nice use of more specifig selectors */
+border-top: 6px solid #000000; /* rules inside curly braces should be indented */
 }
 
 h4 {
@@ -45,12 +45,14 @@ h3 {
 }
 
 hr.solid {
-border-top: 1.5px solid #000000;
+border-top: 1.5px solid #000000; /* rules inside curly braces should be indented */
 color: #DD0000;
 }
 
 
 
 hr.red {
-color: #DD0000;
+color: #DD0000; /* rules inside curly braces should be indented */
 }
+
+/*great styles, just a few indentation comments*/
