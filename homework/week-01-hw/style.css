@@ -1,20 +1,22 @@
 body {
-  	font-size: 14px;
-  	color: magenta;
-    background: lightblue
-  }
+  font-size: 14px;
+  color: magenta;
+  background: lightblue;
+}
 
-  #one { /* doesn't need to be indented */
+#one {
   color: white;
 }
 
-#two { /* nice rule structure */
+#two {
   color: gray;
 }
 
 #three {
-  color: darkgray; 
-/*missing closing tag*/
+  color: darkgray;
+}
 
-{#four {/* extra curly brace at line beggining */
-  color: orange;} /* closing tags are usually placed below the last rule */
+#four {
+  color: orange;
+}
+/* nice structure */

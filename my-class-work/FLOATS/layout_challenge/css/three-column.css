@@ -1,0 +1,28 @@
+.container {
+	width: 1000px;
+}
+
+
+header {
+	background: red;
+	height:100px;
+}
+
+section {
+	background: yellow;
+	height: 250px;
+	width: 600px;
+	float: left;
+
+}
+
+article {
+	background: green;
+	height:100px;
+	
+}
+
+footer {
+	background: green;
+	height:100px;
+}

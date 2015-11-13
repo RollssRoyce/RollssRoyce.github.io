@@ -1,58 +1,78 @@
 body {
-	background-color: white; /* nice rule indentation */
-	width: 720px;
-	margin: 54px;
+  background-color: #ffffff;
+  color:#444444;
+  margin: 0px;
+  line-height: 1.5;
+  font-size: 18px;
+  padding-left: 20px;
 }
 
-#navcontainer ul {
-margin: 0; /* rules inside curly braces should be indented */
-padding: 0;
-list-style-type: none;
-color: #444444;
+section {
+  width: 800px;
 }
 
-
-#article {
-color: #dddddd; /* rules inside curly braces should be indented */
-padding: 15px;
+img {
+  width: 100%;
 }
+
+#wrapper {
+  padding: 54px;
+  width: 720px;
+  border-left: 6px solid #dddddd;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#nav ul li { /* great use of more specific css selectors */
+    display: inline-block;
+    margin: 0;
+  padding: 0;
+  color: #444444;
+}
+
 
 a {
-color: #FF0000; /* rules inside curly braces should be indented */
-text-align: left;
+  color: #FF0000;
+  text-align: right;
+  display: block;
 }
 
 p {
-padding: 15px; /* rules inside curly braces should be indented */
-font-size: 12px;
-font-family: Lato;
-text-align: left;
-color: #cccccc
+  padding: 15px;
+  font-size: 12px;
+  font-family: Lato;
+  text-align: left;
+  color: #cccccc
 }
 
 
-hr.solid {/* nice use of more specifig selectors */
-border-top: 6px solid #000000; /* rules inside curly braces should be indented */
+hr.solid {
+  border-top: 6px solid #000000;
 }
 
 h4 {
-	color: black;
-	font-family: Lato;
+  color: black;
+  font-family: Lato;
 }
 
 h3 {
-	color: #cccccc;
+  color: #cccccc;
 }
 
 hr.solid {
-border-top: 1.5px solid #000000; /* rules inside curly braces should be indented */
-color: #DD0000;
+  border-top: 1.5px solid #000000;
+  color: #DD0000;
 }
 
-
+#article {
+  color: #dddddd;
+  padding: 15px;
+}
 
 hr.red {
-color: #DD0000; /* rules inside curly braces should be indented */
+  color: #DD0000;
 }
-
-/*great styles, just a few indentation comments*/
+/*nice indentation!*/
