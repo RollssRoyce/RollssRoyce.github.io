@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Temperature Converter</title>
+	<header>
+		<title>Temperature Converter</title>
 
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<h1>Temperature Conversion: Convert between Celsius, Kelvin, and Fahrenheit</h1>
-	<h2>Clickable<br> Temperature<br> Thermometer</h2>
-	<img src="https://ostermiller.org/calc/temperature.png"
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
+		
+	</header>
 </head>
 <body>
+	<article>
+		<h1>Temperature Conversion</h1>
 
-	<script type="text/javascript" src="js/project.js"></script>
+	
+
+		<h3>Convert Fahrenheit to Celsius and Celsius to Fahrenheit</h3>
+
+		<h4> Write The Temperature the Boxes Below!</h4>
+
+		<img src="https://ostermiller.org/calc/temperature.png">
+		<br>
+
+			<p>
+				<input type="text" id="temperature" />
+				<input type="button" id="f_to_c" value="F to C" />
+				<input type="button" id="c_to_f" value="C to F" />
+			</p>	
+			
+		<p id="result"></p>	
+
+		</article>
+		<script type="text/javascript" src="jsproject.js"></script>
+
+
 </body>
 </html>
