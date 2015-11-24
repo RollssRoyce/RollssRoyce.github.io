@@ -9,7 +9,11 @@ h1, h3, h4{
 
 }
 
-
+img {
+	border: 8px solid #ff5050;
+	border-radius: 17px;
+	padding: 0px;
+}
 body {
 	background: url(http://2.bp.blogspot.com/-KvyWCCLwGMM/UiYNR3OSWcI/AAAAAAAAF5g/2MJs9R_ODKc/s1600/vT33dB9.jpg);
 	color: gray;
