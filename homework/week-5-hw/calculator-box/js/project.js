@@ -39,6 +39,11 @@ function changeColor () {
 }
 
 
+ function red() {
+    console.log('red');
+    // make appropriate div red here
+}
+
 
 //
 
