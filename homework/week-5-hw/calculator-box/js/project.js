@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 // click event on each of the boxes
 //javacript is responding to events - doing something and then putting them back into the funtion
@@ -6,92 +5,51 @@ $(document).ready(function () {
  var total = 0;
  // add 10 event
 
- $('#a10').click(add10)
-
- function add10 (){ //add10 to the value of total
- 	total = total + 10
- 	$('#out').text(total) // what is currently inside of the element. if we dont put anything inside of the element. Text is how we get or set text values. so what ever you put in the paenthasies is what the result will be.
- }
-
-$('#a20').click(add20)
-
-function add20 () {
-	total = total + 20
-	 $('#out').text(total)
-}
-
-$('#a30').click(add30)
-
-function add30 () {
-	total = total + 30
-	 $('#out').text(total)
-}
-
-//not sure what to do with colors
+//Note to Stas - origionally the below was the equasion that we worked on in class. However instead of .text the correct is .html can you please explain why to me?
+// $('#a10').click(add10)
+//function add10 (){ //add10 to the value of total
+// 	total = total + 10
+// 	$('#out').text(total) // what is currently inside of the element. if we dont put anything inside of the element. Text is how we get or set text values. so what ever you put in the paenthasies is what the result will be.
 
 
-
-$('#red').click(red)
-
-function changeColor () {
-	total = total
-	 $('#red').text(total)
-}
-
-
- function red() {
-    console.log('red');
-    // make appropriate div red here
-}
-
-
-//
+	$("#a10").click(function(){
+		total = total + 10;
+		$("#out").html(total);
+	});
+	$("#a20").click(function(){
+		total = total + 20;
+		$("#out").html(total);	
+	});
+	$("#a30").click(function(){
+		total = total + 30;
+		$("#out").html(total);	
+	});
+	$("#n10").click(function(){
+		total = total - 10;
+		$("#out").html(total);	
+	});
+	$("#n20").click(function(){
+		total = total - 20;
+		$("#out").html(total);	
+	});
+	$("#n30").click(function(){
+		total = total - 30;
+		$("#out").html(total);	
+	});
 
 
 
-// also figuring out the clear
+$("#red").click(function(){
+		$("#out").css("background-color", "red");
+	});
 
-$('#out').click(clearZero)
+$("#blue").click(function(){
+		$("#out").css("background-color", "blue");
+	});
 
-function out () {
-	total = total - total
-	 $('#out').text(total)
-}
-
-
-
-
-
+$("#out").click(function(){
+		$("#out").css("background-color", "white");
+	});
 
 
-
-function add30 () {
-	total = total + 30
-	 $('#out').text(total)
-}
-
- $('#n10').click(add10)
-
- function add10 (){ //add10 to the value of total
- 	total = total - 10
- 	$('#out').text(total) // what is currently inside of the element. if we dont put anything inside of the element. Text is how we get or set text values. so what ever you put in the paenthasies is what the result will be.
- }
-
-$('#n20').click(add20)
-
-function add20 () {
-	total = total - 20
-	 $('#out').text(total)
-}
-
-$('#n30').click(add30)
-
-function add30 () {
-	total = total - 30
-	 $('#out').text(total)
-}
-
-
-
-	
-})
+});

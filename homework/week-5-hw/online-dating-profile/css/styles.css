@@ -1,0 +1,56 @@
+body {
+  font-family: "source sans pro";
+  max-width: 600px;
+  color: #D02090;
+  background-color: #CDC1C5;
+}
+
+.container {
+  font-family: "merriweather", serif;
+  padding: 0 30px;
+  height: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: blue;
+  color: white;
+
+ 
+}
+
+nav {
+  float: right;
+  margin-top: 5px;
+}
+
+nav li {
+  margin-right: 20px;
+  text-decoration: none;
+  color: pink;
+}
+
+
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#rightbox {
+  height: 70px;
+  width: 40px;
+  border: 2px dashed white;
+  float: right;
+
+}
+
+p {
+  color: white;
+  background: pink;
+
+  bottom: 0;
+}
+
+

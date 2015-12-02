@@ -1,0 +1,17 @@
+.Container {
+	height: 1200px;
+	width: 600px;
+	overflow: hidden; //look up overflow
+	margin: auto 0;
+}
+
+
+#box{
+	height: 200px;
+	width: 200px;
+	border: 1px solid light pink;
+	float: left;
+	/* floats because the are on top of each other*/
+	margin: 200px 0 0 100px;
+}
+
