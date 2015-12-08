@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	background-color: #BBC4C1;
+}
+
+.container {
+  font-family: "merriweather", serif;
+  padding: 0 30px;
+  height: 1200px;
+  width: 800px;
+  margin: 0 auto;
+}
+.site-header {
+    padding: 4.5% 0;
+    margin: 0 auto;
+    position: relative;
+    width: 95%;
+}
+
+
+nav {
+  float: center;
+  margin-top: 26px;
+  color: #292929;
+  background-color: #CDC1C5;
+}
+
+nav a {
+  color: #292929;
+  background-color: #CDC1C5;
+  text-decoration: none;
+  margin-right: 20px;
+}
