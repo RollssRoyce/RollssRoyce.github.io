@@ -3,18 +3,28 @@
 <head>
   	<title>Top Soundcloud Playlists</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Give+You+Glory|La+Belle+Aurore|Monoton|Italiana|Monofett|Buda:300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 	<div class="container">
 		<header>
 			<div id="mass-header" class="site-header" role"banner">
-			<nav>
+			<h1>Royce's Remedy</h1>
+			<h2>The Best Sets on Soundcloud</h2>
+			<h3>Right Here Right Now</h3>
+			</div>
+
+			<banner>
+				<nav>
 		      <a href="#">Home</a>
 		      <a href="#">Top Sets</a>
 		      <a href="#">By Genre</a>
 		      <a href="#">About the Creator</a>
-		    </nav>
+		    	</nav>
+			</banner>
+		
+
 		</header>
 	</div>
 
@@ -22,15 +32,15 @@
       &copy; 2015 Top Soundcloud Sets | <a href="#">By Genre</a> | <a href="#">About the Creator</a>
     </footer>
 
+    <script src='http://code.jquery.com/jquery-latest.min.js'></script>
 	<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
 	<script>
-	  SC.initialize({
-	    client_id: 'soundcloud',
-	    redirect_uri: 'http://example.com/callback'
-	  });
+		  SC.initialize({
+		    client_id: 'soundcloud',
+		    redirect_uri: 'http://example.com/callback'
+		  });
 	</script>
-  <script src='http://code.jquery.com/jquery-latest.min.js'></script>
-  <script src="js/index.js"></script>
+  	<script src="js/index.js"></script>
 </body>
 
 </html>

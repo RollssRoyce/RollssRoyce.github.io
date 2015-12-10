@@ -15,19 +15,36 @@ body {
     margin: 0 auto;
     position: relative;
     width: 95%;
+    font-family: 'Monoton', script;
 }
-
-
+/*
+#banner {
+  height: 425px;
+  background: url(../images/coworking.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 10px 10px -10px;
+  -webkit-box-shadow: inset 0 10px 10px -10px;
+  -moz-box-shadow: inset 0 10px 10px -10px;
+}
+*/
 nav {
   float: center;
-  margin-top: 26px;
-  color: #292929;
-  background-color: #CDC1C5;
+  margin-top: 1px;
 }
 
 nav a {
-  color: #292929;
+  color: #3B4441;
   background-color: #CDC1C5;
   text-decoration: none;
   margin-right: 20px;
+  font-family: 'Monofett', cursive;
+  font-size: 25px;
+}
+
+footer {
+  color: #3B4441;
+  background-color: #CDC1C5;
+  padding: 0 20px 0 20px;
+  display: block; 
 }
