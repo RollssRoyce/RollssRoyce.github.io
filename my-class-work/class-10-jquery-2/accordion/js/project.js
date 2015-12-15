@@ -1,7 +1,8 @@
-$(document).ready(function (){
+$(document).ready(function () {
+	
+	$('.row').click(function () {
+	
+	$(this).find('.wrapper').slideup()
+})
 
-	$('.row').click(function (){
-
-		$('.row').find('.wrapper').slideDown() // try slide toggel 
-	})
 })

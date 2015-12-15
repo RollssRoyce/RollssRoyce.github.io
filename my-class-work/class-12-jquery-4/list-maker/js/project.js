@@ -8,3 +8,8 @@
 // Itermediate Bonus: If the value of #item is blank, do not append the <li> and alert user
 // Legendary Bonus: Remove <li> elements when they are clicked
 
+
+
+('#item').text(function (){
+
+})
