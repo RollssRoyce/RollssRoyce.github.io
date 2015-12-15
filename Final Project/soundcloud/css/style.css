@@ -48,3 +48,40 @@ footer {
   padding: 0 20px 0 20px;
   display: block; 
 }
+
+#wrapper {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.row header {
+  height: 45px;
+}
+
+.row header h2 {
+  padding-left: 25px;
+  line-height: 50px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+
+.row:nth-child(1) header {
+  background-color: #333333;
+}
+
+.row:nth-child(2) header {
+  background-color: #555555;
+}
+
+.row:nth-child(3) header {
+  background-color: #777777;
+}
+
+.row:nth-child(4) header {
+  background-color: #999999;
+}
+
+.row:nth-child(5) header {
+  background-color: #BBBBBB;
+}
