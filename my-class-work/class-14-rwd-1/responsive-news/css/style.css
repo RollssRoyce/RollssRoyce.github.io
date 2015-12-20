@@ -102,3 +102,47 @@ p {
 	line-height: 0;
 	height: 0;
 }
+
+/* Media Queries*/
+
+@media screen and (max-width: 480px) {
+	#container {
+		width: 98%;
+	}
+
+	#side-column {
+		float: none;
+		width: 100%;
+	}
+	#articles { 
+		width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 599px) {
+	#container {
+		width: 98%;
+	}
+
+	#side-column {
+		float: none;
+		width: 100%;
+	}
+	#articles { 
+		width: 100%;
+	}
+
+@media screen and (min-width: 600px) and (max-width: 1100) {
+	#container {
+		width: 98%;
+	}
+
+	#side-column {
+		float: none;
+		width: 100%;
+	}
+	#articles { 
+		width: 100%;
+	}
+}
