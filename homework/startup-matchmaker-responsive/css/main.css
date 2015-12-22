@@ -5,19 +5,22 @@ body {
 h1 {
 	color: yellow;
 	font-family: "merriweather", serif;
-	font-size:	30px;
+	font-size:	25px;
+	margin: 15px;
+	float: left;
 }
 
 header {
 	background-color: black;
 	overflow: hidden;
-	padding: 0 30px;
+	margin: 0 20px;
+	width: 100%; 
 	border-bottom: 4px solid yellow;
 }
 
 nav {
-	float: right;
-	margin-top: 25px;
+	float: right; 
+	margin-bottom: 15px
 }
 
 nav a {
@@ -70,6 +73,10 @@ nav a {
 	padding: 20px;
 }
 
+.button {
+	background-color: yellow;
+	width: 40px;
+}
 h3 {
 	font-size: 18px
 }
