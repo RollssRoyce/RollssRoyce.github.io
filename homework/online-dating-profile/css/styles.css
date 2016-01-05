@@ -1,0 +1,92 @@
+body {
+  font-family: "source sans pro";
+  max-width: 600px;
+  color: #D02090;
+  background-color: #CDC1C5;
+  background-image: url('http://orig12.deviantart.net/133a/f/2012/272/e/3/disney_love_by_missesambervaughn-d5gb69k.png');
+}
+
+.container {
+  font-family: "merriweather", serif;
+  padding: 0 30px;
+  height: 1200px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: #87CEFA;
+  color: white;
+  font-family: Waltograph;
+}
+
+
+nav {
+  float: right;
+  margin-top: 5px;
+  top: 20px;
+
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: pink;
+}
+
+
+img{
+  border: 2px dashed white;
+}
+
+
+
+.my-profile {
+    z-index: 2;
+    width: 220px;
+    left: 30px;
+    top: 50px;
+    justify: left;
+    background-image: ur('http://2.bp.blogspot.com/-C5LXX9-3ajg/VMzYKIplR-I/AAAAAAAAh40/Xy_VPZzaJGk/s1600/digital_heart_paper.jpg')
+}
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 30px;
+    height: 40px;
+    color:pink;
+    background-color: 225 0 0 .50 ;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#rightbox {
+  border: 2px dashed white;
+  height: 350px;
+  width: 300px;
+  margin: 0 50px 0 0;
+  top: 50px;
+  position: ;
+  float: right;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  background-image: url("http://2.bp.blogspot.com/-C5LXX9-3ajg/VMzYKIplR-I/AAAAAAAAh40/Xy_VPZzaJGk/s1600/digital_heart_paper.jpg");
+
+
+    
+
+
+}
+
+p {
+  color: white;
+  background: pink;
+
+  bottom: 0;
+}
+
+

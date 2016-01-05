@@ -1,0 +1,29 @@
+
+
+h1, h3, h4{
+	text-align: left;
+	color: #ff5050;
+	padding left: 150px;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; letter-spacing: -1px; 
+
+}
+
+img {
+	border: 8px solid #ff5050;
+	border-radius: 17px;
+	padding: 0px;
+}
+body {
+	background: url(http://2.bp.blogspot.com/-KvyWCCLwGMM/UiYNR3OSWcI/AAAAAAAAF5g/2MJs9R_ODKc/s1600/vT33dB9.jpg);
+	color: gray;
+	text-align: left;
+	font-family: Baskerville, cursive, serif;
+
+}
+
+article {
+	padding-left: 170px;
+
+
+}

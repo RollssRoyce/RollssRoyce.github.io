@@ -1,0 +1,38 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+
+p {
+  color: white;
+  background: black;
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+.first {
+  background-image: url('images/Daisy-floral-seamless-pattern.jpg');
+}
+
+.second {
+  background-color: black;
+
+.dessert {
+  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+}
+
+
